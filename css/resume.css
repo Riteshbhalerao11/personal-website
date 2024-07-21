@@ -13,9 +13,6 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
 h6 {
   font-family: "Saira Extra Condensed", serif;
   font-weight: 700;
@@ -32,11 +29,23 @@ h2 {
   font-size: 3.5rem;
 }
 
+h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  color: #000205;
+  font-size: 1.3rem;
+}
+h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  color: #000205;
+  font-size: 1.4rem;
+}
+
 .subheading {
-  text-transform: uppercase;
   font-weight: 500;
-  font-family: "Saira Extra Condensed", serif;
-  font-size: 1.35rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.3rem;
 }
 
 .list-social-icons a {
@@ -153,6 +162,12 @@ a:active {
   margin-top: 12.7px;
 }
 
+.orcid {
+  color: white;
+  margin-top: 12.52px;
+}
+
 .description {
   color: black;
+  font-size: 1.1rem;
 }
